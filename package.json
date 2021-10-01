@@ -1,0 +1,14 @@
+{
+  "name": "Todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack src/index.js --output bin/app.js -d --watch"
+  },
+  "dependencies": {
+    "mithril": "^2.0.4",
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
